@@ -1,0 +1,10 @@
+fastapi 
+uvicorn[standard]
+pydantic 
+typing 
+pandas 
+gunicorn 
+openpyxl 
+scikit-learn
+python
+s3fs
