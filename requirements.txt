@@ -8,4 +8,4 @@ openpyxl
 scikit-learn
 python
 s3fs
---upgrade pip
+pip 23.2.1
