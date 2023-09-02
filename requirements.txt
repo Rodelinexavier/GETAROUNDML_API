@@ -8,3 +8,4 @@ openpyxl
 scikit-learn
 python
 s3fs
+python -m pip install --upgrade pip
