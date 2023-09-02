@@ -1,9 +1,8 @@
 import uvicorn
-import uvicorn
 import pandas as pd 
 from pydantic import BaseModel
 from fastapi import FastAPI
-from typing import Literal, Union
+from typing import  Union
 from joblib import load
 
 
@@ -61,9 +60,8 @@ def predict(predictionsFeatures:PredictionFeatures):
     return {"prediction" : pred[0]}
 
     
-if __name__ == "__main__":
+if __name__ == "__app__":
     uvicorn.run(app, host = "0.0.0.0", port = 4000, debug=True, reload=True)  
-
 
     
     
