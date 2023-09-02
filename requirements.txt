@@ -6,6 +6,6 @@ pandas
 gunicorn 
 openpyxl 
 scikit-learn
-python
+python-dateutil==2.8.1
 s3fs
-pip 23.2.1
+
